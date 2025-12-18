@@ -1,21 +1,22 @@
-# SpaceXplorer – Interactive Simulation Project
+# SpaceXplorer – C-Based Simulation Project
 
-SpaceXplorer is an interactive simulation developed during Year 1, designed to explore
-control systems, collision handling, and state-based logic.
+SpaceXplorer is a C-based simulation project developed during Year 1, focused on
+control logic, state-based behaviour, and modular program structure.
 
-The project demonstrates structured problem-solving and real-time system behaviour
-applicable to robotics and autonomous systems.
+The project demonstrates low-level programming concepts such as structured control
+flow, separation of concerns, and basic system modelling — foundations relevant to
+embedded systems and robotics software.
 
 ## Technical Focus
 - Control logic and state management
-- Collision detection and physics interactions
-- Event-driven system design
-- Debugging and iterative development
+- Modular C program design (.c / .h separation)
+- Build configuration using CMake
+- Debugging and incremental development
 
-## Tools & Technologies
-- Unity (C#)
-- Object-oriented programming
-- Physics and collision systems
-
-## Status
-Completed (with scope for future extensions)
+## Build & Run
+```bash
+mkdir build
+cd build
+cmake ..
+make
+./SpaceXplorer
