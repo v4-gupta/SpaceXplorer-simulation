@@ -20,3 +20,15 @@ cd build
 cmake ..
 make
 ./SpaceXplorer
+
+---
+
+
+Your repo will:
+- Render correctly on GitHub
+- Look intentional and engineered
+- Be **placement-safe**
+
+This is the difference between “student uploaded code” and “engineering project”.
+
+Once committed, reply **“done”** and I’ll tell you whether to **pin it on your GitHub profile** and how to reference it on LinkedIn without overselling.
